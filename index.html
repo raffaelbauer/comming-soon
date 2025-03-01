@@ -19,6 +19,7 @@
             color: white;
             text-align: center;
             overflow: hidden;
+            flex-direction: column;
         }
 
         .container {
@@ -52,21 +53,24 @@
             margin-bottom: 20px;
         }
 
-        .footer {
-            position: absolute;
-            bottom: 20px;
+        /* Footer Styling */
+        footer {
+            color: white;
+            text-align: center;
             font-size: 1rem;
-            color: #f1f1f1;
+            width: 100%;
+            margin-top: auto;
+            padding-bottom: 10px;
         }
 
-        .footer a {
-            color: #ff7f50;
+        footer a {
+            color: white;
             text-decoration: none;
-            font-weight: bold;
         }
 
-        .footer a:hover {
+        footer a:hover {
             text-decoration: underline;
+            color: #ff7f50;
         }
 
         @media (max-width: 768px) {
@@ -92,10 +96,11 @@
         <div class="countdown">Bald verfügbar!</div>
     </div>
 
-    <footer class="footer">
-        &copy; 2025 Raffael Bauer<br>
-        <a href="https://raffaelbauer.github.io/Impressum/">Impressum</a> | 
-        <a href="https://raffaelbauer.github.io/Datenschutzbestimmungen/">Datenschutzbestimmungen</a>
+    <footer>
+        <p>&copy; 2025 Raffael Bauer. Alle Rechte vorbehalten.</p>
+        <p>
+            <a href="https://raffaelbauer.github.io/Datenschutzerklaerung/">Datenschutzbestimmungen</a>
+        </p>
     </footer>
 
 </body>
